@@ -1,0 +1,49 @@
+.convert-rad-to-degrees {
+    width: 500px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+#input-rad { margin-top: 1rem; }
+
+.multiply { 
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.formula { padding-left: 0; }
+
+.pi-img {
+    width: 30px;
+    height: 30px;
+    margin-top: 0.4rem;
+    margin-left: 0.6rem;
+}
+
+.conv-2 { margin-top: 0; margin-bottom: 0.4rem; }
+
+.hr {
+    width: 50px;
+    height: 1px;
+    background-color: black;
+}
+
+.one-eight-zero-degrees {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0.2rem;
+}
+
+.equal { 
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+#answer {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
