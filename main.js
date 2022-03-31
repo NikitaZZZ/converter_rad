@@ -2,6 +2,7 @@ let app = new Vue({
     el: '#app',
     data: {
         radInput: 1,
+        rad2Input: 1,
         convertRadToDegAnswer: 'Ответ',
         convertDegToRadAnswer: 'Ответ' 
     },
@@ -12,7 +13,7 @@ let app = new Vue({
         },
 
         convertDegToRad() {
-            this.convertDegToRadAnswer = (this.radInput * (Math.PI / 180)).toFixed(3)
+            this.convertDegToRadAnswer = (this.rad2Input * (Math.PI / 180)).toFixed(3)
         }
     }
 })
