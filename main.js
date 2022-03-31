@@ -3,8 +3,8 @@ let app = new Vue({
     data: {
         radInput: 1,
         rad2Input: 1,
-        convertRadToDegAnswer: 'Ответ',
-        convertDegToRadAnswer: 'Ответ' 
+        convertRadToDegAnswer: 'Рад в °',
+        convertDegToRadAnswer: '° в рад' 
     },
 
     methods: {
